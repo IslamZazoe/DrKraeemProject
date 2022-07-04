@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        header{
+            background-color:rgb(255, 71, 71) ;
+            color: wheat;
+            text-align: center;
+            font-size: 35px;
+            padding: 30px;
+        }
+
+        footer{
+            background-color:rgb(141, 38, 38) ;
+            color: rgb(15, 151, 3);
+            text-align: center;
+            font-size: 35px;
+            padding: 30px;
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <h2>welcome</h2>
+    </header>
+
+
+    {% block content %}
+    
+    {% endblock  %}
+
+    <footer>
+        goodbye
+    </footer>
+</body>
+</html>
